@@ -103,6 +103,23 @@ body {
     font-size: 30px;
 }
 
+.win-target {
+    position: absolute;
+    width: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 105px;
+    text-align: center;
+}
+
+.win-target-label {
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-30%);
+    top: 85px;
+}
+
 button {
     position: absolute;
     width: 200px;
@@ -141,11 +158,21 @@ i {
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
 
-.dice {
+
+.dice1 {
     position: absolute;
     left: 50%;
     top: 178px;
-    transform: translateX(-50%);
+    transform: translateX(-110%);
+    height: 100px;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+}
+
+.dice2 {
+    position: absolute;
+    left: 50%;
+    top: 178px;
+    transform: translateX(+10%);
     height: 100px;
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
 }
